@@ -1,0 +1,100 @@
+2021-01-13 20:25:11,789 - log.py[line:48] - INFO: abc
+2021-01-13 20:28:35,618 - data.py[line:18] - ERROR: D:\workspace\github\ui_api_framework\data\test_user_data.xlsx is not existed!
+2021-01-13 20:29:27,133 - data.py[line:18] - ERROR: file 'D:\workspace\github\ui_api_framework\data\test_user_data.xlsx' is not existed!
+2021-01-13 20:29:27,134 - data.py[line:18] - ERROR: file 'D:\workspace\github\ui_api_framework\data\test_user_data.xlsx' is not existed!
+2021-01-13 20:29:27,134 - data.py[line:18] - ERROR: file 'D:\workspace\github\ui_api_framework\data\test_user_data.xlsx' is not existed!
+2021-01-13 20:29:27,135 - data.py[line:18] - ERROR: file 'D:\workspace\github\ui_api_framework\data\test_user_data.xlsx' is not existed!
+2021-01-13 20:29:27,135 - data.py[line:18] - ERROR: file 'D:\workspace\github\ui_api_framework\data\test_user_data.xlsx' is not existed!
+2021-01-13 20:29:27,135 - data.py[line:18] - ERROR: file 'D:\workspace\github\ui_api_framework\data\test_user_data.xlsx' is not existed!
+2021-01-13 20:30:26,396 - data.py[line:18] - ERROR: file 'D:\workspace\github\ui_api_framework\data\test_user_data.xlsx' is not existed!
+2021-01-13 20:30:26,397 - data.py[line:18] - ERROR: file 'D:\workspace\github\ui_api_framework\data\test_user_data.xlsx' is not existed!
+2021-01-13 20:30:26,397 - data.py[line:18] - ERROR: file 'D:\workspace\github\ui_api_framework\data\test_user_data.xlsx' is not existed!
+2021-01-13 20:30:26,398 - data.py[line:18] - ERROR: file 'D:\workspace\github\ui_api_framework\data\test_user_data.xlsx' is not existed!
+2021-01-13 20:30:26,398 - data.py[line:18] - ERROR: file 'D:\workspace\github\ui_api_framework\data\test_user_data.xlsx' is not existed!
+2021-01-13 20:30:26,398 - data.py[line:18] - ERROR: file 'D:\workspace\github\ui_api_framework\data\test_user_data.xlsx' is not existed!
+2021-01-13 20:30:38,735 - data.py[line:18] - ERROR: file 'D:\workspace\github\ui_api_framework\data\test_user_data.xlsx' is not existed!
+2021-01-13 20:30:38,736 - data.py[line:18] - ERROR: file 'D:\workspace\github\ui_api_framework\data\test_user_data.xlsx' is not existed!
+2021-01-13 20:30:38,736 - data.py[line:18] - ERROR: file 'D:\workspace\github\ui_api_framework\data\test_user_data.xlsx' is not existed!
+2021-01-13 20:30:38,736 - data.py[line:18] - ERROR: file 'D:\workspace\github\ui_api_framework\data\test_user_data.xlsx' is not existed!
+2021-01-13 20:30:38,736 - data.py[line:18] - ERROR: file 'D:\workspace\github\ui_api_framework\data\test_user_data.xlsx' is not existed!
+2021-01-13 20:30:38,736 - data.py[line:18] - ERROR: file 'D:\workspace\github\ui_api_framework\data\test_user_data.xlsx' is not existed!
+2021-01-13 20:31:09,052 - data.py[line:20] - ERROR: file 'D:\workspace\github\ui_api_framework\data\test_user_data.xlsx' is not existed!
+2021-01-13 20:31:37,439 - data.py[line:20] - ERROR: file 'D:\workspace\github\ui_api_framework\data\test_user_data.xlsx' is not existed!
+2021-01-13 20:57:30,103 - send_email.py[line:39] - ERROR: [Errno 11001] getaddrinfo failed
+2021-01-13 20:58:04,275 - send_email.py[line:40] - ERROR: [Errno 11001] getaddrinfo failed
+2021-01-13 20:58:10,866 - send_email.py[line:40] - ERROR: [Errno 11001] getaddrinfo failed
+2021-01-13 21:01:21,097 - send_email.py[line:41] - ERROR: [Errno 11001] getaddrinfo failed
+2021-01-13 21:02:09,078 - send_email.py[line:42] - ERROR: [Errno 11001] getaddrinfo failed
+2021-01-13 21:02:51,175 - send_email.py[line:42] - ERROR: [Errno 11001] getaddrinfo failed
+2021-01-13 21:12:30,601 - data.py[line:20] - ERROR: file 'D:\workspace\github\ui_api_framework\data\test_user_data.xlsx' is not existed!
+2021-01-13 21:12:30,601 - data.py[line:20] - ERROR: file 'D:\workspace\github\ui_api_framework\data\test_user_data.xlsx' is not existed!
+2021-01-13 21:30:43,557 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:5000
+2021-01-13 21:30:43,559 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 404 232
+2021-01-13 21:31:20,703 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:5000
+2021-01-13 21:31:21,207 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 113
+2021-01-13 21:34:00,112 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:5000
+2021-01-13 21:34:00,115 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 113
+2021-01-13 21:34:00,116 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:5000
+2021-01-13 21:34:00,118 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 113
+2021-01-13 21:34:00,120 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:5000
+2021-01-13 21:34:00,123 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 113
+2021-01-13 21:34:00,125 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:5000
+2021-01-13 21:34:00,127 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 113
+2021-01-13 21:34:41,956 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:5000
+2021-01-13 21:34:41,959 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 56
+2021-01-13 21:34:41,961 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:5000
+2021-01-13 21:34:41,963 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 56
+2021-01-13 21:34:41,965 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:5000
+2021-01-13 21:34:41,967 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 56
+2021-01-13 21:34:41,968 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:5000
+2021-01-13 21:34:41,971 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 56
+2021-01-13 21:49:49,100 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:5000
+2021-01-13 21:49:49,103 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 56
+2021-01-13 21:50:19,339 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:5000
+2021-01-13 21:50:19,341 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 56
+2021-01-13 21:50:19,343 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:5000
+2021-01-13 21:50:19,346 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 56
+2021-01-13 21:50:19,348 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:5000
+2021-01-13 21:50:19,351 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 56
+2021-01-13 21:50:19,353 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:5000
+2021-01-13 21:50:19,355 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 56
+2021-01-13 21:52:16,830 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:5000
+2021-01-13 21:52:16,833 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 56
+2021-01-13 21:52:16,837 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:5000
+2021-01-13 21:52:16,839 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 56
+2021-01-13 21:52:16,844 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:5000
+2021-01-13 21:52:16,846 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 56
+2021-01-13 21:52:16,851 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:5000
+2021-01-13 21:52:16,854 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 56
+2021-01-13 22:00:02,257 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:5000
+2021-01-13 22:00:02,260 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 56
+2021-01-13 22:00:02,264 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:5000
+2021-01-13 22:00:02,266 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 56
+2021-01-13 22:00:02,271 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:5000
+2021-01-13 22:00:02,273 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 56
+2021-01-13 22:00:02,279 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:5000
+2021-01-13 22:00:02,281 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 56
+2021-01-13 22:06:35,820 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:5000
+2021-01-13 22:06:35,823 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 56
+2021-01-13 22:06:35,829 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:5000
+2021-01-13 22:06:35,832 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 56
+2021-01-13 22:06:35,836 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:5000
+2021-01-13 22:06:35,838 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 56
+2021-01-13 22:06:35,841 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:5000
+2021-01-13 22:06:35,848 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 56
+2021-01-13 22:10:05,257 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:5000
+2021-01-13 22:10:05,260 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 56
+2021-01-13 22:10:05,265 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:5000
+2021-01-13 22:10:05,267 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 56
+2021-01-13 22:10:05,270 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:5000
+2021-01-13 22:10:05,273 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 56
+2021-01-13 22:10:05,277 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:5000
+2021-01-13 22:10:05,279 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 56
+2021-01-13 22:14:45,073 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:5000
+2021-01-13 22:14:45,076 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 56
+2021-01-13 22:14:45,080 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:5000
+2021-01-13 22:14:45,082 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 56
+2021-01-13 22:14:45,085 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:5000
+2021-01-13 22:14:45,087 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 56
+2021-01-13 22:14:45,091 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:5000
+2021-01-13 22:14:45,094 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 56
