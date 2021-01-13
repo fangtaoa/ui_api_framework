@@ -1,1 +1,4 @@
 .idea
+log/*
+report/*
+*__pycache__*
