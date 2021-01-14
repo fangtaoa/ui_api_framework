@@ -31,7 +31,7 @@ class TestZentaoLogin():
 		self.zentao.submit_login("admin", "Ft1234561")
 		ret = self.zentao.get_alert()
 		print(f"测试结果: {ret}")
-		assert "登录失败" in ret
+		assert "登录失败" in ret or "Login failed" in ret
 
 
 if __name__ == '__main__':
