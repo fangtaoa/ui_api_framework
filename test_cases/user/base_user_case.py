@@ -5,27 +5,16 @@
 
 """
 import sys
-
-from common.log import Log
-from common.config import Config
-from common.db import DB
-from common.data import DataReader
 import json
-import requests
+
+from test_cases.base_case import BaseCase
 
 
-class Case(object):
+class BaseUserCase(BaseCase):
 	def __init__(self):
-		self.logger = Log.get_logger()
-		self.cf = Config()
+		super(BaseUserCase, self).__init__()
 
-	def load_data(self, data_file):
-		self.data = DataReader(data_file)
-
-	def set_env(self, env):
-		self.env = env
-
-	def run_case(self, case_data, var={}):
+	def run_user_case(self, case_data, var={}):
 		url = self.cf.get_node_value("server", self.env) + case_data[1]
 		data = case_data[4]
 
@@ -35,10 +24,10 @@ class Case(object):
 		else:
 			headers = {"content-type": "application/json"}
 
-		if case_data[2].lower() == "get":
-			resp = requests.get(url=url)
+		if case_data[2].lower() == "get".lower():
+			resp = self.requester.get(url=url, is_session=True)
 		else:
-			resp = requests.post(url=url, headers=headers, json=data)
+			resp = self.requester.post(url=url, is_session=True, headers=headers, json=data, )
 		return resp
 
 	def check_response(self):
@@ -51,7 +40,7 @@ class Case(object):
 
 
 if __name__ == "__main__":
-	c = Case()
+	c = BaseUserCase()
 	c.set_env("test")
 	c.load_data("test_user_data.xls")
 	c.run_case("login")

@@ -1,9 +1,12 @@
+#!/usr/bin/python3
+# coding:utf-8
+
+
 from flask import Flask, make_response, jsonify, abort, request
 from flask_restful import Api, Resource
 from flask_httpauth import HTTPBasicAuth
 from flask_jwt import JWT, jwt_required, current_identity
 from werkzeug.security import safe_str_cmp
-
 
 app = Flask(__name__)
 app.debug = True
@@ -23,26 +26,10 @@ def authoorized():
 	return make_response(jsonify({'msg': "请认证"}), 403)
 
 
-
-#
-# class User(Resource):
-# 	def __init__(self, id, username, password):
-# 		self.id = id
-# 		self.username = username
-# 		self.password = password
-#
-# 	def __str__(self):
-# 		return "User(id='%s')" % self.id
-#
-# 	def get(self):
-# 		return make_response(jsonify({"msg": "请登录", "status": 1001}))
-#
-# 	def post(self):
-# 		if not request.json:
-# 			return make_response(jsonify({"msg": "请求参数不是JSON字符串, 请检查", "status": 1002}))
-# 		else:
-# 			if request.json.get("name") == "张三" and request.json.get("passwd") == "123456":
-# 				return make_response(jsonify({"msg": "登录成功", "status": 0}))
+books = [
+	{'id': 1, 'author': 'wuya', 'name': 'Python接口自动化测试实战', 'done': True},
+	{'id': 2, 'author': '无涯', 'name': 'Selenium3自动化测试实战', 'done': False}
+]
 
 
 class User(object):
@@ -58,11 +45,6 @@ class User(object):
 users = [
 	User(1, 'wuya', 'asd888'),
 	User(2, 'user2', 'abcxyz'),
-]
-
-books = [
-	{'id': 1, 'author': 'wuya', 'name': 'Python接口自动化测试实战', 'done': True},
-	{'id': 2, 'author': '无涯', 'name': 'Selenium3自动化测试实战', 'done': False}
 ]
 
 username_table = {u.username: u for u in users}
@@ -146,8 +128,6 @@ class Book(Resource):
 
 api.add_resource(Books, '/v1/api/books')
 api.add_resource(Book, '/v1/api/book/<int:book_id>')
-api.add_resource(User, "/api/user/login/")
 
 if __name__ == '__main__':
 	app.run(debug=True)
-

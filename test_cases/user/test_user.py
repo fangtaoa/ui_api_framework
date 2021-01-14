@@ -1,9 +1,9 @@
 import pytest
 
-from test_cases.case import Case
+from test_cases.user.base_user_case import BaseUserCase
 from common.data import DataReader
 
-case = Case()
+case = BaseUserCase()
 data_reader = DataReader("test_user_data.xls")
 
 
@@ -11,10 +11,10 @@ data_reader = DataReader("test_user_data.xls")
 # 	case.set_env(get_env)
 
 
-@pytest.mark.parametrize("case_data", data_reader.read_excel_data("login"))
+@pytest.mark.parametrize("case_data", data_reader.read_excel_data("login")[1:])
 def test_login_normal(case_data, env):
 	case.set_env(env)
-	r = case.run_case(case_data)
+	r = case.run_user_case(case_data)
 	assert r.status_code == 200
 	assert r.json()["status"] == 0
 	assert case_data[-1] in r.json()["msg"]
