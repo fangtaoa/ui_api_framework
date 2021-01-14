@@ -16,5 +16,6 @@ def main(env):
 
 
 if __name__ == '__main__':
+    print("测试jenkins自动拉代码自动构建.....")
     main("test")
 
